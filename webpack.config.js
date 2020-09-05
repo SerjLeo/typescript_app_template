@@ -28,6 +28,9 @@ module.exports = {
         port: 8080
     },
     plugins: plugins(),
+    resolve: {
+        extensions: ['.ts', '.js', '.json']
+    },
     module: {
         rules: [
             {
